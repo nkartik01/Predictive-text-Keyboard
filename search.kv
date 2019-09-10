@@ -1,0 +1,13 @@
+#kivy.require("1.0.6")
+<SearchScreen>:
+    text_input:word_in
+    text_output:word_out
+    TextInput:
+        id:word_in
+        size:root.width-100,root.height/9
+        pos:root.x+50,root.y+root.height-200
+        font_size:'40sp'
+    TextInput:
+        id:word_out
+        size:root.width-100,root.height-300
+        pos:root.x+50,root.y+root.height-500
